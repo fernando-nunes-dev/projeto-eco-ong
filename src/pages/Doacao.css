@@ -121,3 +121,42 @@
 .botao-cancelar:hover {
   background-color: #5a6268;
 }
+
+/* Media Query para Tablets e Celulares */
+@media (max-width: 768px) {
+  .doacao-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0;
+  background-image: linear-gradient(rgba(220, 253, 249, 0.4), rgba(220, 253, 249, 0.4)), url(/public/logos/forest-amazon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(220, 253, 249);
+}
+
+ .doacao-card {
+  background: #ffffff;
+  padding: 32px 24px;
+  border-radius: 0;
+  box-shadow: none;
+  width: 90%;
+  min-height: auto;
+  text-align: center;
+}
+  .doacao-logo {
+    max-width: 120px;
+  }
+
+  .doacao-info-arrecadacao .valores,
+  .doacao-form label,
+  .doacao-form input,
+  .botoes-container button {
+    font-size: 16px;
+  }
+
+  .botoes-container {
+    flex-direction: column;
+  }
+}

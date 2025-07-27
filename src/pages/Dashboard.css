@@ -24,6 +24,31 @@
 }
 
 .dashboard-grid {
-  display: center;
   gap: 32px;
+}
+
+/* Media Query para Tablets e celulares*/
+@media (max-width: 1024px) {
+  .dashboard-container {
+    padding: 40px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 30px 20px;
+  }
+
+  .dashboard-header img {
+    width: 200px;
+  }
+
+  .dashboard-header p {
+    font-size: 16px;
+  }
+
+  .dashboard-grid {
+    display: block;
+    gap: 0;
+  }
 }
