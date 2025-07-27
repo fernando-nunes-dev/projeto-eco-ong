@@ -81,3 +81,23 @@
 .card-container.meta-atingida .progresso-bar {
   background: linear-gradient(90deg, #ffc107, #ffd54f);
 }
+
+/* Media Query para Tablets e Celulares */
+@media (max-width: 768px) {
+  .card-container {
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+
+  .card-logo {
+    width: 100px;
+  }
+
+  .card-nome {
+    font-size: 20px;
+  }
+
+  .card-descricao {
+    font-size: 14px;
+  }
+}
