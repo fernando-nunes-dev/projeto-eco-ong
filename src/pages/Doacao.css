@@ -1,0 +1,117 @@
+.doacao-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 32px;
+  background-color: #f4f7f6;
+}
+
+.loading-container {
+  font-size: 24px;
+  color: #555;
+}
+
+.doacao-card {
+  background: white;
+  padding: 32px 48px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+.doacao-logo {
+  max-width: 150px;
+  margin-bottom: 24px; 
+}
+
+.doacao-descricao-completa {
+  text-align: left;
+  line-height: 1.6;
+  color: #555;
+  margin: 24px 0;
+}
+
+.doacao-info-arrecadacao {
+  margin: 32px 0;
+  text-align: left;
+}
+
+.doacao-info-arrecadacao .valores {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 17.6px;
+}
+
+.doacao-progresso-bar-container {
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  height: 12px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.doacao-progresso-bar {
+  background: linear-gradient(90deg, #1e90ff, #87cefa);
+  height: 100%;
+  border-radius: 8px;
+}
+
+.doacao-form {
+  margin-top: 32px;
+}
+
+.doacao-form label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 19.2px;
+  font-weight: bold;
+  color: #333;
+}
+
+.doacao-form input {
+  width: 100%;
+  padding: 12.8px;
+  margin-bottom: 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 19.2px;
+  text-align: center;
+}
+
+.botoes-container {
+  display: flex;
+  gap: 16px;
+}
+
+.botoes-container button {
+  flex: 1;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.botao-confirmar {
+  background-color: #28a745;
+  color: white;
+}
+
+.botao-confirmar:hover {
+  background-color: #218838;
+}
+
+.botao-cancelar {
+  background-color: #6c757d;
+  color: white;
+}
+
+.botao-cancelar:hover {
+  background-color: #5a6268;
+}

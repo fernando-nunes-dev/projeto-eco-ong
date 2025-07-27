@@ -1,0 +1,83 @@
+.card-container {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 34px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card-container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+.card-logo {
+  width: 120px;
+  object-fit: contain;
+  margin: 0 auto 16px;
+  border-radius: 20px;
+}
+
+.card-nome {
+  margin: 0 0 8px 0;
+  font-size: 22.4px;
+  color: #333;
+}
+
+.card-descricao {
+  font-size: 15.2px;
+  color: #666;
+  flex-grow: 1;
+  margin-bottom: 16px;
+}
+
+.card-progresso-info {
+  margin: 16px 0;
+  font-size: 14.4px;
+  color: #555;
+}
+
+.progresso-bar-container {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  height: 10px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.progresso-bar {
+  background: linear-gradient(90deg, #4caf50, #81c784);
+  height: 100%;
+  border-radius: 8px;
+}
+
+.card-botao-doar {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: auto;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.card-botao-doar:hover {
+  background-color: #0056b3;
+}
+
+.card-container.meta-atingida {
+  border: 2px solid #ffd700;
+  background-color: #fffbeb;
+}
+
+.card-container.meta-atingida .progresso-bar {
+  background: linear-gradient(90deg, #ffc107, #ffd54f);
+}
