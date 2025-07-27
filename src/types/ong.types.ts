@@ -6,4 +6,4 @@ export interface ONG {
   caminhoImagem: string;
   valorMeta: number;
   valorArrecadado: number;
-}
+};

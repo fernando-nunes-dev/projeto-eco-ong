@@ -1,0 +1,29 @@
+.dashboard-container {
+  padding: 50px 300px;
+  background-image: linear-gradient(rgba(220, 253, 249, 0.4), rgba(220, 253, 249, 0.4)), url(/public/logos/forest-amazon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(220, 253, 249);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.dashboard-header img {
+  width: 300px;
+  margin: 0 auto 16px;
+}
+
+.dashboard-header p {
+  font-size: 20px;
+  color: #555;
+}
+
+.dashboard-grid {
+  display: center;
+  gap: 32px;
+}

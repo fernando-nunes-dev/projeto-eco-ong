@@ -1,8 +1,15 @@
-import { listaDeONGs } from './data/ong.data.ts';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-const ongsLocalStorageKey = 'ongsData';
-const ongsExistentes = localStorage.getItem(ongsLocalStorageKey);
+import './reset.css';
 
-if (!ongsExistentes) {
-  localStorage.setItem(ongsLocalStorageKey, JSON.stringify(listaDeONGs));
-}
+import App from './App';
+
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
